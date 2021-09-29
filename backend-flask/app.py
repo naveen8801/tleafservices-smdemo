@@ -21,7 +21,7 @@ app = Flask(__name__)
 CORS(app)
 app.config[
     "MONGO_URI"
-] = "mongodb+srv://ml-ai:project-ml-ai@cluster0.lycs8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+] = ""
 mongo = PyMongo(app)
 db = mongo.db
 
@@ -30,11 +30,11 @@ db = mongo.db
 # dotenv_path = os.path.join(APP_ROOT, ".env")
 # load_dotenv(dotenv_path)
 
-API_KEY = "3L094jJzc7ReFcSJRaDEIbxMA"
-API_SECRET_KEY = "gMGywEFtXWBbz9SDjjLNOc4PeWCe7zEKvREgqDOqNEP6uk0ycq"
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAFwnGwEAAAAANSEpy5uavqoVgdnxhuYZKJEi4N8%3DiOAenc38m1jO4MfTIjQMGAvfih5T6LP18tyQ496y15VORsTATJ"
-ACCESS_TOKEN = "1246008382323998721-OH4KwSWVTYduzE3OvxZL4eb10QzIsz"
-ACCESS_TOKEN_SECRET = "dXITbcdlUy5sh8yYLmTZkSDTyTt4mINkROb83CI6GKVK7"
+API_KEY = ""
+API_SECRET_KEY = ""
+BEARER_TOKEN = ""
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
 
 twpy_qry = "(@mpdial100) OR (@PoliceIndore) OR (@dgp_mp) OR (@bhopal_police) OR (@igp_bhopal_mp) OR (@MpPoliceOffici1) \
     OR (Madhya AND Pradesh AND Police) OR (Indore AND police) OR (Bhopal AND Police) OR (Jabalpur AND Police) \
