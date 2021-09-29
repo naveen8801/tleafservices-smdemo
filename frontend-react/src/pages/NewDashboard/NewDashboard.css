@@ -1,0 +1,62 @@
+.new-dash-div {
+  width: 100%;
+  height: 100%;
+}
+
+.chart-card-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.chart-card-content-sub {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  /* padding: 2.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; */
+}
+
+.chart-div {
+  width: 47%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.refresh-btn {
+  width: 70px;
+  height: 30px;
+  font-size: 12px;
+  margin-left: 2rem;
+  border-radius: 8px;
+  background-color: #4b6587;
+  border: none;
+}
+
+.refresh-btn:hover {
+  cursor: pointer;
+  background-color: #4b6587;
+  border: none;
+}
+
+.tweet-content {
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 1262px) {
+  .chart-card-content-sub {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .chart-card-content-sub {
+    width: 100%;
+  }
+}

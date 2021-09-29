@@ -1,0 +1,13 @@
+.sentiment-pie-chart-div {
+  display: inline-block;
+  width: 280px;
+  height: 230px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 1082px) {
+  .sentiment-pie-chart-div {
+      height: 240px;
+  }
+}

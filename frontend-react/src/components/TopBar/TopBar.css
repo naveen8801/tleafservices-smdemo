@@ -1,0 +1,37 @@
+.topbar {
+  height: 45px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.topbar-item {
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.active-period {
+  background-color: #4b6587;
+  color: white;
+}
+
+.heading-topbar {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.topbar-item:hover {
+  cursor: pointer;
+}

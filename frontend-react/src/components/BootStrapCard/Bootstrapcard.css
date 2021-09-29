@@ -1,0 +1,18 @@
+.category-counter-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100px;
+  height: 190px;
+  text-align: center;
+}
+
+.counter-title {
+  text-align: center;
+}
+
+.counter-value {
+  text-align: center;
+}

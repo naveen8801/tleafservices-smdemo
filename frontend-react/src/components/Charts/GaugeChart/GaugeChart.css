@@ -1,0 +1,7 @@
+.gauge-chart-div {
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+  /* height: 350px; */
+  margin: 0.2rem;
+}

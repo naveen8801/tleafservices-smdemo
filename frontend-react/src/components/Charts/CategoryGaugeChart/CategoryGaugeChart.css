@@ -1,0 +1,8 @@
+.incident-bar-chart {
+  width: 35%;
+  height: 250px;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-style: none;
+  background-color: rgb(163, 41, 41);
+}

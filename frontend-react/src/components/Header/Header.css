@@ -1,0 +1,19 @@
+.icon-header:hover {
+  cursor: pointer;
+}
+
+.backdrop {
+  width: 85%;
+  height: 85vh;
+  border-radius: 12px;
+  background-color: white;
+}
+
+@media only screen and (max-width: 859px) {
+  .title_h4 {
+    font-size: 15px;
+  }
+  .title_h6 {
+    font-size: 14px;
+  }
+}

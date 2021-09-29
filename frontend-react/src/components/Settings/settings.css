@@ -1,0 +1,11 @@
+.settings-div {
+  border-radius: 12px;
+  background-color: white;
+}
+
+.sub {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}

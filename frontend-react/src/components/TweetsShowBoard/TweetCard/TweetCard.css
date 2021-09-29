@@ -1,0 +1,97 @@
+.tweet-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  width: 100%;
+}
+
+.tweet-card_in:hover {
+  background-color: rgba(35, 125, 214, 0.082);
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 18px;
+}
+
+.tweetcard-sub-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-between;
+  margin-left: 0.5rem;
+}
+
+.tweet-card-handle {
+  font-size: 14px;
+  margin: 0px;
+  margin-left: 0.6rem;
+  color: #0a043c;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tweetcard-text {
+  font-size: 13.5px;
+  margin-left: 0.8rem;
+}
+
+.type-indicator-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  font-size: 13px;
+  border-radius: 12px;
+}
+
+.tweet-time {
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 11px;
+  color: #8e9775;
+}
+
+.tweet_link {
+  color: black;
+  text-decoration: none;
+}
+
+.tweet_link:active {
+  text-decoration: none;
+  color: black;
+}
+
+.tweet_link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.indicator-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 0.6rem;
+  padding-top: 0.6rem;
+  align-items: center;
+}
+
+.alert-indicator-div {
+  width: 16px;
+  height: 16px;
+  background-color: red;
+  border-radius: 16px;
+  margin-left: 0.5rem;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

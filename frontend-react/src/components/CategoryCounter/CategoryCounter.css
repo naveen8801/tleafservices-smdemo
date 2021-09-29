@@ -1,0 +1,29 @@
+.category-counter-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100px;
+  height: 70px;
+}
+
+.counter-title {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #8e9775;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.counter-value {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #0a043c;
+  font-size: 25px;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}

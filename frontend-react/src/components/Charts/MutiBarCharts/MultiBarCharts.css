@@ -1,0 +1,12 @@
+.multi-bar-chart-div {
+  display: inline-block;
+  width: 345px;
+  height: 220px;
+  /* height: 350px; */
+}
+
+@media only screen and (max-width: 1082px) {
+  .multi-bar-chart-div {
+    height: 240px;
+  }
+}

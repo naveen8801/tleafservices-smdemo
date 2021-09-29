@@ -1,0 +1,80 @@
+.dashboard {
+  width: 85%;
+  height: 100vh;
+}
+
+.dashboard-topbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin: 0.5rem;
+}
+
+.dashboard-content {
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.sub-content_1 {
+  width: 70%;
+  height: 80vh;
+  margin: 0.5rem;
+}
+
+.sub-content_2 {
+  width: 30%;
+  height: 80vh;
+  margin: 0.5rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.social-feed-div {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+
+.last-hour-div {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+
+.last-hour-sub-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-hour-content {
+  width: 100%;
+  height: 50%;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.last-hour-content-data {
+  width: 100%;
+  height: 30%;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

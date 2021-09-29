@@ -1,0 +1,57 @@
+.search-keyword-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inp {
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.inp::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  padding-left: 1rem;
+}
+
+.inp:focus {
+  outline: none;
+}
+
+.btn- {
+  height: 34px;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.input-field-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.show-list {
+  margin-bottom: 1rem;
+}
+
+.item-keyword {
+  display: inline-block;
+  margin: 0.5rem;
+  background-color: #e1e5ea;
+  padding: 0.5rem;
+}
+
+.apply-btn {
+  background-color: #4b6587;
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 12px;
+  border: none;
+  border-radius: 8px;
+}
